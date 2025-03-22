@@ -42,7 +42,7 @@ int main() {
     printf ("População: %d\n", populacao);
     printf ("Área: %.3f km²\n", area);
     printf ("PIB: %f Bilhões de reais\n", PIB);
-    printf ("Número de pontos turísticos: %d", turisticos);
+    printf ("Número de pontos turísticos: %d\n", turisticos);
 
     // CARTA 02
 
