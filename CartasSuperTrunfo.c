@@ -17,6 +17,7 @@ int main() {
     // Cadastro das Cartas:
     // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
     // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
+
     printf ("Carta 01\n");
     printf ("Estado: ");
     scanf ("%s", estado);
@@ -32,9 +33,11 @@ int main() {
     scanf ("%f", &PIB);
     printf ("Número de pontos turísticos: ");
     scanf ("%d", &turisticos);
+
     // Exibição dos Dados das Cartas:
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
+    
     printf ("CARTA 01\n");
     printf ("Estado: %s\n", estado);
     printf ("Código da carta: %s\n", codigo);
