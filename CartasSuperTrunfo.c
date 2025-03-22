@@ -43,7 +43,41 @@ int main() {
     printf ("Área: %.3f km²\n", area);
     printf ("PIB: %f Bilhões de reais\n", PIB);
     printf ("Número de pontos turísticos: %d", turisticos);
-    
+
+    // CARTA 02
+
+    char estado2[50], cidade2[50], codigo2[50];
+    int populacao2, turisticos2;
+    float area2, PIB2;
+
+    // Cadastro das Cartas:
+
+    printf ("Carta 02\n");
+    printf ("Estado: ");
+    scanf ("%s", estado2);
+    printf ("Código da carta: ");
+    scanf ("%s", codigo2);
+    printf ("Nome da cidade: ");
+    scanf ("%s", cidade2);
+    printf ("População: ");
+    scanf ("%d", &populacao2);
+    printf ("Área: ");
+    scanf("%f", &area2);
+    printf ("PIB: ");
+    scanf ("%f", &PIB2);
+    printf ("Número de pontos turísticos: ");
+    scanf ("%d", &turisticos2);
+
+    // Exibição dos Dados das Cartas:
+
+    printf ("CARTA 02\n");
+    printf ("Estado: %s\n", estado2);
+    printf ("Código da carta: %s\n", codigo2);
+    printf ("Nome da cidade: %s\n", cidade2);
+    printf ("População: %d\n", populacao2);
+    printf ("Área: %.3f km²\n", area2);
+    printf ("PIB: %f Bilhões de reais\n", PIB2);
+    printf ("Número de pontos turísticos: %d", turisticos2);
     
     return 0;
 }
