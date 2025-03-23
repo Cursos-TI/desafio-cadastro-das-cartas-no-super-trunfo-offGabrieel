@@ -43,7 +43,7 @@ int main() {
     printf ("Estado: %s\n", estado);
     printf ("Código da carta: %s\n", codigo);
     printf ("Nome da cidade: %s\n", cidade);
-    printf ("População: %d\n", populacao);
+    printf ("População: %d Habitantes\n", populacao);
     printf ("Área: %.3f km²\n", area);
     printf ("PIB: %f Bilhões de reais\n", PIB);
     printf ("Número de pontos turísticos: %d\n", turisticos);
@@ -80,7 +80,7 @@ int main() {
     printf ("Estado: %s\n", estado2);
     printf ("Código da carta: %s\n", codigo2);
     printf ("Nome da cidade: %s\n", cidade2);
-    printf ("População: %d\n", populacao2);
+    printf ("População: %d Habitantes\n", populacao2);
     printf ("Área: %.3f km²\n", area2);
     printf ("PIB: %f Bilhões de reais\n", PIB2);
     printf ("Número de pontos turísticos: %d", turisticos2);
