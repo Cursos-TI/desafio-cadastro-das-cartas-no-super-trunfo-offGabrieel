@@ -102,6 +102,22 @@ int main() {
     
     printf ("Densidade Populacional:  %.2f hab/km²\n", densidade2);
     printf ("PIB per Capita:  %.2f reais\n", capita2);
+    printf ("\n\n\n");
+    
+    // Calcular o Super Poder
+    // Carta 01
+    
+    float poder1 = (populacao + area + PIB + turisticos + capita) - densidade;
+    float poder2 = (populacao2 + area2 + PIB2 + turisticos2 + capita2) - densidade2;
+    
+    printf("SUPER PODER CARTA 01: %.2f\n", poder1);
+    printf("SUPER PODER CARTA 02: %.2f\n", poder2);
+    
+    // Comparação das cartas
+    
+    printf("Comparação das cartas!\n");
+    printf("")
+    
     
     return 0;
 }
