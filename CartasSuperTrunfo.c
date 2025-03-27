@@ -106,17 +106,19 @@ int main() {
     
     // Calcular o Super Poder
     // Carta 01
+    float densidadeInversa = (float)(area / populacao);
+    float densidadeInversa2 = (float)(area2 / populacao2);
     
-    float poder1 = (populacao + area + PIB + turisticos + capita) - densidade;
-    float poder2 = (populacao2 + area2 + PIB2 + turisticos2 + capita2) - densidade2;
+    float poder1 = populacao + area + PIB + turisticos + capita + densidadeInversa;
+    float poder2 = populacao2 + area2 + PIB2 + turisticos2 + capita2 + densidadeInversa2;
     
     printf("SUPER PODER CARTA 01: %.2f\n", poder1);
     printf("SUPER PODER CARTA 02: %.2f\n", poder2);
+    printf ("\n\n\n");
     
     // Comparação das cartas
     
     printf("Comparação das cartas!\n");
-    printf("")
     
     
     return 0;
